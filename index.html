@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+  	<title>Boxes</title>
+
+  	<link href='http://fonts.googleapis.com/css?family=Alef:400,700' rel='stylesheet' type='text/css'>
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/style2.css">
+
+  </head>
+
+  <body>
+
+    <script src="script/soundmanager2.js"></script>
+    <script>
+    soundManager.setup({
+      url: '/swf/',
+      // optional: use 100% HTML5 mode where available
+      // preferFlash: false,
+      preferFlash: false,
+
+      onready: function() {
+        var mySound = soundManager.createSound({  
+          id: 'aSound',
+          url: 'audio/01VNDMG+ccceccc-Premise.mp3',
+          autoPlay: false
+        });
+        //mySound.play();
+      },
+      ontimeout: function() {
+        // Hrmm, SM2 could not start. Missing SWF? Flash blocked? Show an error, etc.?
+      }
+    });
+    </script>
+
+    <header>
+      <h1>Aw so sweet audio visual playtime by Cecily</h1>
+    </header>
+
+  	<div class="content">
+
+  		<audio src="audio/01VNDMG+ccceccc-Premise.mp3" type="audio/mp3" controls loop>
+  			<p>Your browser does not support the audio element.</p>
+  		</audio>
+
+  		<div id="boxes" class="clearfix">
+  			<div class="box" id="philips"></div>
+  			<div class="box odd" id="candle"></div>
+  			<div class="box" id="flower"></div>
+  			<div class="box odd" id="moose"></div>
+  		</div>
+
+  		<audio id="lower" src="audio/02VNDMG+ccceccc-downsighs.mp3" type="audio/mp3" controls loop>
+  			<p>Your browser does not support the audio element.</p>
+  		</audio>
+
+  	</div> <!-- .content -->
+
+  </body>
+
+</html>

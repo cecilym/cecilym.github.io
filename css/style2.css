@@ -1,0 +1,78 @@
+body {
+	background-image: url(../images/cecilym_Swim_with_Me.jpeg);
+	background-size: cover;
+	margin: 10px 0px 0px 15px;
+	padding: 10px 0px 15px 15px;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 2px 1px gray;
+	background-color: white;
+	border-radius: 30px;
+	border-style: outset;
+	border-width: 4px;
+	margin: 0 auto;
+	width: 60%;
+	box-shadow: 5px 5px 5px gray inset;
+}
+
+audio {
+	width: 95%;
+	margin-top: 10px;
+}
+
+audio #lower{
+	margin-top: 0px;
+}
+
+#boxes {
+	width:100%;
+	height:800px;
+	margin:0 auto;
+	padding-left: 7%;
+	padding-bottom: 0px;
+	overflow: hidden;
+}
+
+#boxes .box {
+	width: 40%;
+	height: 35%;
+	background-image: url(../images/cecily_bluepx.PNG);
+	background-size: cover;
+	float: left;
+	margin: 5px 5px 5px 5px;
+	opacity: 0.7;
+}
+
+#boxes .box:hover {
+	background-size: cover;
+	float:left;
+	opacity: 1;
+	transition: opacity 1.2s ease-in-out;
+}
+
+#boxes #philips:hover {
+	background-image: url(../images/philips.jpg);
+}
+
+#boxes #candle:hover {
+	background-image: url(../images/chameleon_candle.JPG);
+}
+
+#boxes #flower:hover {
+	background-image: url(../images/flower.JPG);
+}
+
+#boxes #moose:hover {
+	background-image: url(../images/moose.jpg);
+}
+
+
+
+
+
+
+
+
